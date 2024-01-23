@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e6e6;
+}
+
+nav {
+  background-color: #2969fe;
+  color: aliceblue;
+}
+
+nav > div > h1 {
+  text-align: center;
+  text-shadow: 1px 2px 5px rgb(147, 21, 21);
+}
+
+nav > div > p {
+  text-align: center;
+  text-shadow: 1px 0.2px 5px rgb(83, 29, 29);
+  margin-top: 0.6em;
+  padding-bottom: 0.9em;
+}
+
+.contrainer {
+  margin: 0.5em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 -5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(222, 201, 201);
+  border-radius: 0.5em;
+  color: aliceblue;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+
+.contrainer > p:first-child {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-shadow: 1px 0.2px 0.1px rgb(57, 25, 25);
+}
+
+.contrainer > p:nth-child(2) {
+  color: black;
+  margin-left: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.contrainer > ul {
+  margin-top: 1em;
+  margin-bottom: 1.3em;
+}
+
+.contrainer > ul > li {
+  color: black;
+  margin-left: 3.3em;
+}
+
+.contact {
+  padding-bottom: 1em;
+}
+
+footer > p {
+  text-align: center;
+  background-color: #3656f4;
+  color: rgb(189, 214, 235);
+  padding: 0.6em;
+  margin-top: -1em;
+  border-bottom-left-radius: 0.5em; /* Adjust the radius as needed */
+  border-bottom-right-radius: 0.5em; /* Adjust the radius as needed */
+}

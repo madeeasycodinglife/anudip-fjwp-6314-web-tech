@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div > .name {
+  margin-top: 1em;
+  text-align: center;
+  text-shadow: 1px 2px 5px rgb(147, 21, 21);
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for mobile devices */
+  div > .name {
+    margin-top: 1em;
+    text-align: center;
+    text-shadow: 1px 2px 5px rgb(147, 21, 21);
+  }
+}
+
+.email {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-shadow: 1px 0.2px 5px rgb(83, 29, 29);
+}
+.box {
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+div.box > p:first-child {
+  font-weight: bold;
+  text-shadow: 1px 0.2px 0.5px rgb(21, 23, 147);
+}
+
+.list {
+  margin-left: 3em;
+}
+
+hr {
+  border: 1.5px solid black; /* Set the border properties for the horizontal line */
+  margin: 10px 0; /* Add some margin for spacing */
+}
