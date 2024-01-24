@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  background-color: #dc7979;
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 1px 2px 5px rgb(147, 21, 21);
+  padding: 0.9em;
+}
+
+.card {
+  margin-top: 0.6em;
+  margin-bottom: 1em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.scooter-p {
+  margin-top: 0.9em;
+  margin-left: 0.1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 0.1em;
+  text-shadow: 1px - 5px rgb(83, 29, 29);
+}
+
+.card > dl > dt {
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding: 0.5em;
+  color: #f80303;
+}
+
+.card > dl > dd {
+  margin-left: 1em;
+  font-size: 1.2em;
+  margin-left: 3em;
+  padding-bottom: 1em;
+}
+
+.scooter {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.suv,
+.muv,
+.electric-car {
+  width: 1.4em !important;
+}
