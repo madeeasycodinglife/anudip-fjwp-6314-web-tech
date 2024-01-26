@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Online Items and Prices</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="price.calculation.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Sample Online Items and Prices</h1>
+    </nav>
+    <section>
+      <h1>Laptop ($800 each)</h1>
+      <input type="text" id="laptop" placeholder="0" />
+      <h1>Smartphone ($400 each)</h1>
+      <input type="text" id="mobile" placeholder="0" />
+      <h1>Headphone ($50 each)</h1>
+      <input type="text" id="headphone" placeholder="0" />
+      <h1>Tablet ($300 each)</h1>
+      <input type="text" id="tablet" placeholder="0" />
+      <button id="calculateButton">Calculate Total Price</button>
+    </section>
+    <h1 id="total-price">Total Price: 0</h1>
+    <script>
+      document
+        .getElementById("calculateButton")
+        .addEventListener("click", function () {
+          let laptop = parseInt(document.getElementById("laptop").value) || 0;
+          let mobile = parseInt(document.getElementById("mobile").value) || 0;
+          let headphone =
+            parseInt(document.getElementById("headphone").value) || 0;
+          let tablet = parseInt(document.getElementById("tablet").value) || 0;
+
+          let totalPrice =
+            laptop * 800 + mobile * 400 + headphone * 50 + tablet * 300;
+          document.getElementById("total-price").innerHTML =
+            "Total Price: " + totalPrice;
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav > h1 {
+  text-align: center;
+  color: white;
+}
+
+section {
+  width: 45%;
+  box-shadow: 0px 15px 16px rgba(15, 15, 15, 0.1);
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 1em;
+}
+section > input {
+  display: block;
+  width: 60%;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+section > button {
+  font-weight: bold;
+  background-color: rgb(70, 88, 195);
+  color: white;
+  padding: 0.5em 2.9em;
+}
+body > h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
