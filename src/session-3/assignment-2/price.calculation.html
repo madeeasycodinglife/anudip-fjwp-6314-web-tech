@@ -27,7 +27,7 @@
       <input type="text" id="tablet" placeholder="0" />
       <button id="calculateButton">Calculate Total Price</button>
     </section>
-    <h1 id="total-price">Total Price: 0</h1>
+    <h1 id="total-price">Total Price: $0</h1>
     <script>
       document
         .getElementById("calculateButton")
@@ -41,7 +41,7 @@
           let totalPrice =
             laptop * 800 + mobile * 400 + headphone * 50 + tablet * 300;
           document.getElementById("total-price").innerHTML =
-            "Total Price: " + totalPrice;
+            "Total Price:$" + totalPrice;
         });
     </script>
   </body>
