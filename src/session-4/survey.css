@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  box-shadow: 0 4px 8px 0 rgba(0, 1, 6, 0.2),
+    0 6px 20px 0 rgba(209, 228, 220, 0.19);
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  padding: 1em;
+  background-color: #f2f1f6;
+}
+main > h1 {
+  text-align: center;
+  color: blue;
+  text-shadow: 1px 2px 5px rgb(186, 123, 123);
+}
+main > input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.2em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(51, 117, 230, 0.2),
+    0 6px 20px 0 rgba(78, 49, 245, 0.19);
+  background-color: #f3e6e6;
+  font-size: 0.91em;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+}
+
+h5 {
+  width: 5em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 0.2em;
+}
